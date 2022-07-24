@@ -1,0 +1,95 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body style="background-color: powderpink;">
+  <div class="container">
+    <div class="title" style="text-align:center;"><b><u>Registration form</u></b></div>
+    <div class="content"><br><br>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+          <div class="input-box">
+            <span class="details">Roll.No:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+          <div class="input-box">
+            <span class="details">Father Name:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+          <div class="input-box">
+            <span class="details">Address:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+          <div class="input-box">
+            <span class="details">Aadhar Number:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+          <div class="input-box">
+            <span class="details">Xth CGPA:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+          <div class="input-box">
+            <span class="details">X11th CGPA:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+        
+          <div class="input-box">
+            <span class="details">Qualification:</span>
+            <input type="text" placeholder="" required><br>
+          </div>
+          <div class="Courses Completed">
+            <span class="Courses Complition">Courses Completed:</span><br>
+            <input type="checkbox" id="c" name="fav_language" value="c">
+            <label for="c">C</label><br>
+           <input type="checkbox" id="css" name="fav_language" value="CSS">
+           <label for="c++">C++</label><br>
+            <input type="checkbox" id="python" name="fav_language" value="python">
+            <label for="python">python</label><br>
+            <input type="checkbox" id="HTML" name="fav_language" value="HTML">
+            <label for="HTML">HTML</label><br>
+            <input type="checkbox" id="Java" name="fav_language" value="Java">
+            <label for="Java">Java</label><br>
+          </div>
+        
+        <div class="gender-details">
+          
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <input type="radio" name="gender" id="dot-1">
+            <label for="dot-1">
+            <span class="dot one">Male</span><br>
+            <input type="radio" name="gender" id="dot-2">
+          </label>
+          <label for="dot-2">
+            <span class="dot two">Female</span><br>
+            <input type="radio" name="gender" id="dot-3">
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">others</span>
+            </label>
+          </div>
+        </div>
+        
+        <form action="upload.php" method="post" enctype="multipart/form-data"> Select image to upload:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload Image" name="submit">
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
